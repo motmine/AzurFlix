@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AzurFlix</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            margin: 10px 0 0; /* Adjusted margin for the movie title */
+        }
+
+        .home-button {
+            padding: 20px 30px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #333;
+            border-radius: 8px;
+            font-size: 1.5em;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .home-button:hover {
+            background-color: #555;
+        }
+
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #333;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .film-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin-top: 20px;
+            border: 2px solid #333;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        iframe {
+            width: 100%;
+            height: 89vh;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>AzurFlix</h1>
+        <a href="acceuil.html" class="home-button">Accueil</a>
+    </header>
+
+    <div class="container">
+        <div class="film-container">
+            <h2 style="margin: 0; margin-top: 10px;">Intouchables</h2>
+            <iframe src="https://cdn4.tokyvideo.com/videos/484/48439/mp4/d339c35c340f79ff2510d98c2758a23e7108ea8c402431cc7955d7e16ebae5d0.mp4?nva=20231112163737&nvb=20231110163737&token=0072619cee29809a3c5f8" allowfullscreen webkitallowfullscreen alt="Intouchables"></iframe>
+        </div>
+    </div>
+
+</body>
+</html>
